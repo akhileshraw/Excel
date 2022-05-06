@@ -17,7 +17,8 @@ public class Excel_Class {
 	 System.out.println(Sheet.getLastRowNum());
 	 System.out.println("Before Updating Cell Data is  "+ Sheet.getRow(2).getCell(1));
 	 Reporter.log("Row data is Fetched");
-	 
+	 System.out.println("Post Updates");
+	 System.out.println("Post update 2");
 	 //Write Data to Excel File
 	 XSSFCell cell=Sheet.getRow(2).getCell(1);
 	 cell.setCellValue("Test123456");
